@@ -18,6 +18,7 @@ class KodePos {
   }
 }
 
+
 console.log("Kode Pos Batununggal:", KodePos.getKodePos("Batununggal"));
 console.log("Kode Pos Cijaura:", KodePos.getKodePos("Cijaura"));
 console.log("Kode Pos Sokaraja:", KodePos.getKodePos("Sokaraja"));
