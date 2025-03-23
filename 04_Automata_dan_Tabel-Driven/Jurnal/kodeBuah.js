@@ -21,7 +21,6 @@ class KodeBuah {
   }
 }
 
-// Contoh pemanggilan
 console.log("Kode Buah Apel:", KodeBuah.getKodeBuah("Apel"));
 console.log("Kode Buah Kurma:", KodeBuah.getKodeBuah("Kurma"));
 console.log("Kode Buah Mangga:", KodeBuah.getKodeBuah("Mangga"));
