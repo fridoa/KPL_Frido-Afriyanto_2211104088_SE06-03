@@ -10,7 +10,7 @@
 
 Disusun Oleh :
 
-**Frido Afriyanto (2211104075)**  
+**Frido Afriyanto (2211104088)**  
 **SE06-02**
 
 Asisten Praktikum :  
