@@ -33,7 +33,7 @@ class SayaTubeVideo {
 }
 
 try {
-  const video1 = new SayaTubeVideo("Tutorial Design By Contract – [FRIDO AFRIYANTO]");
+  const video1 = new SayaTubeVideo("Tutorial Design By Contract – [FRIDO-AFRIYANTO]");
 
   video1.IncreasePlayCount(5000000);
   video1.PrintVideoDetails();
