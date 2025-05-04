@@ -1,0 +1,24 @@
+{
+  "mata_kuliah": [
+    {
+      "kode": "MK001",
+      "nama": "Design Thinking"
+    },
+    {
+      "kode": "MK002",
+      "nama": "Arsitektur Komputer"
+    },
+    {
+      "kode": "MK003",
+      "nama": "Komputasi Numerik"
+    },
+    {
+      "kode": "MK004",
+      "nama": "Proses Perangkat Lunak"
+    },
+    {
+      "kode": "MK005",
+      "nama": "Konstruksi Perangkat Lunak"
+    }
+  ]
+}
