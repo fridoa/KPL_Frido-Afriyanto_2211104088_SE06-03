@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-class kuliahMahasiswa2211104088 {
+class KuliahMahasiswa2211104088 {
   static ReadJSON() {
     const filePath = "./tp7_2_2211104088.json";
     const jsonData = fs.readFileSync(filePath, "utf-8");

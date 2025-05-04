@@ -1,7 +1,7 @@
-const DataMahasiswa = require("./dataMahasiswa2211104088");
+const DataMahasiswa = require("./DataMahasiswa2211104088");
 
 DataMahasiswa.ReadJSON();
 
-const Kuliah = require("./kuliahMahasiswa2211104088");
+const Kuliah = require("./KuliahMahasiswa2211104088");
 
 Kuliah.ReadJSON();
