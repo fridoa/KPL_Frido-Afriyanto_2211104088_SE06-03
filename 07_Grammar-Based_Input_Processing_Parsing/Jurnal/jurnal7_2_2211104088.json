@@ -1,0 +1,32 @@
+{
+  "members" : [
+    {
+       "firstName": "Irfan",
+       "lastName": "Muria",
+       "gender": "male",
+       "age": 23,
+       "nim": "2211104075"
+    },
+    {
+      "firstName": "Naufal",
+      "lastName": "Ananta",
+      "gender": "male",
+      "age": 24,
+      "nim": "2211104081"
+   },
+    {
+       "firstName": "Firman",
+       "lastName": "Maulana",
+       "gender": "male",
+       "age": 23,
+       "nim": "2211104083"
+    },
+    {
+       "firstName": "Danuar Ihza",
+       "lastName": "Mahendra",
+       "gender": "male",
+       "age": 24,
+       "nim": "2211104084"
+    }
+  ]
+}
