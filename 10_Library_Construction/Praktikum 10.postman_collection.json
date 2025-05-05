@@ -1,0 +1,703 @@
+{
+	"info": {
+		"_postman_id": "8555f517-25ac-4a38-b631-aca05d5ff32f",
+		"name": "Praktikum 10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40504820"
+	},
+	"item": [
+		{
+			"name": "Get All Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/mahasiswa",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "326"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"146-p5jLTjkzpsOX17ExVglBi/umzZ4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:05:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"nim\": \"2211104075\",\n            \"nama_lengkap\": \"Irfan Muria\",\n            \"email\": \"irfanmuria04@gmail.com\",\n            \"no_hp\": \"087875161921\",\n            \"tanggal_lahir\": \"2025-04-04T00:00:00.000Z\",\n            \"jenis_kelamin\": \"L\",\n            \"created_at\": \"2025-05-04T14:04:45.336Z\",\n            \"updated_at\": \"2025-05-04T14:04:45.336Z\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "berhasil",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "333"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14d-IgbLxCRgxGvAQYf8xROCEYwaJxc\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 05 May 2025 15:54:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"nim\": \"2211104088\",\n            \"nama_lengkap\": \"Frido Afriyanto\",\n            \"email\": \"fridoafriyanto3@gmail.com\",\n            \"no_hp\": \"085786876148\",\n            \"tanggal_lahir\": \"2025-08-04T00:00:00.000Z\",\n            \"jenis_kelamin\": \"L\",\n            \"created_at\": \"2025-05-05T15:53:56.722Z\",\n            \"updated_at\": \"2025-05-05T15:53:56.722Z\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get By Id Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/mahasiswa/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "324"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"144-g/89LiM626mQmw9Isw9WeaMcLqM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:10:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2004-04-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:04:45.336Z\",\n        \"updated_at\": \"2025-05-04T14:09:16.288Z\"\n    }\n}"
+				},
+				{
+					"name": "berhasil",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "331"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14b-niaXsk06H4VWXXOXlPIScwZex78\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 05 May 2025 15:55:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104088\",\n        \"nama_lengkap\": \"Frido Afriyanto\",\n        \"email\": \"fridoafriyanto3@gmail.com\",\n        \"no_hp\": \"085786876148\",\n        \"tanggal_lahir\": \"2025-08-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-05T15:53:56.722Z\",\n        \"updated_at\": \"2025-05-05T15:53:56.722Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nim\": \"2211104088\",\r\n    \"nama_lengkap\": \"Frido Afriyanto\",\r\n    \"email\": \"fridoafriyanto3@gmail.com\",\r\n    \"no_hp\": \"085786876148\",\r\n    \"tanggal_lahir\": \"2025-08-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/mahasiswa",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104075\",\r\n    \"nama_lengkap\": \"Irfan Muria\",\r\n    \"email\": \"irfanmuria04@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2025-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "230"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e6-HUnGbGCU+8kChUIrdvUDWHlLKwk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:04:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"message\": \"Mahasiswa created successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2025-04-04\",\n        \"jenis_kelamin\": \"L\"\n    }\n}"
+				},
+				{
+					"name": "berhasil",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104088\",\r\n    \"nama_lengkap\": \"Frido Afriyanto\",\r\n    \"email\": \"fridoafriyanto3@gmail.com\",\r\n    \"no_hp\": \"085786876148\",\r\n    \"tanggal_lahir\": \"2025-08-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "237"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ed-DQzgvmgZ7wy3sM1/XLNMF9C0h6M\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 05 May 2025 15:53:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"message\": \"Mahasiswa created successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104088\",\n        \"nama_lengkap\": \"Frido Afriyanto\",\n        \"email\": \"fridoafriyanto3@gmail.com\",\n        \"no_hp\": \"085786876148\",\n        \"tanggal_lahir\": \"2025-08-04\",\n        \"jenis_kelamin\": \"L\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nim\": \"2211104075\",\r\n    \"nama_lengkap\": \"Irfan Muria\",\r\n    \"email\": \"irfanmuria04@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2004-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/mahasiswa/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104075\",\r\n    \"nama_lengkap\": \"Irfan Muria\",\r\n    \"email\": \"irfanmuria04@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2004-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "324"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"144-gZcsae4rU4I9l86nw/Y3htcqfUc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:09:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa updated successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2004-04-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:04:45.336Z\",\n        \"updated_at\": \"2025-05-04T14:09:16.288Z\"\n    }\n}"
+				},
+				{
+					"name": "berhasil",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104088\",\r\n    \"nama_lengkap\": \"frido\",\r\n    \"email\": \"fridopemalang@gmail.com\",\r\n    \"no_hp\": \"085786876148\",\r\n    \"tanggal_lahir\": \"2004-08-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "319"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13f-xxyMiQfev5zeAWe4jDMI9WIZkJ0\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 05 May 2025 15:57:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa updated successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104088\",\n        \"nama_lengkap\": \"frido\",\n        \"email\": \"fridopemalang@gmail.com\",\n        \"no_hp\": \"085786876148\",\n        \"tanggal_lahir\": \"2004-08-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-05T15:53:56.722Z\",\n        \"updated_at\": \"2025-05-05T15:57:05.541Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/mahasiswa/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "324"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"144-qs+sww2yFQc/Vb1cgEezg6eUfj8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:11:38 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa deleted successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2004-04-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:04:45.336Z\",\n        \"updated_at\": \"2025-05-04T14:09:16.288Z\"\n    }\n}"
+				},
+				{
+					"name": "berhasil",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "319"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13f-7csQnC7Q8hY3ZNjXKAJFUgtD1D8\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 05 May 2025 15:57:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa deleted successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104088\",\n        \"nama_lengkap\": \"frido\",\n        \"email\": \"fridopemalang@gmail.com\",\n        \"no_hp\": \"085786876148\",\n        \"tanggal_lahir\": \"2004-08-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-05T15:53:56.722Z\",\n        \"updated_at\": \"2025-05-05T15:57:05.541Z\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
