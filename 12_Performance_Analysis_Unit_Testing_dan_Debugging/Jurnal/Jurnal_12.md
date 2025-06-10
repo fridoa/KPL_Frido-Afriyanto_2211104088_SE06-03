@@ -257,14 +257,13 @@ C. Jalankan kode unit test yang dibuat dan lampirkan hasil unit testing yang dil
 **Output**
 
 - Soal 1 & 2
-  ![image](https://github.com/user-attachments/assets/48d532ba-d157-4500-bd35-c6db564bc64f)
+  ![Image](https://github.com/user-attachments/assets/01c8a190-7a0a-4254-82cf-dc9908538c7d)
 
 - Soal 3
-  ![Screenshot 2025-05-17 222322](https://github.com/user-attachments/assets/42526829-c1d3-4234-b649-a603bf989eae)
-  ![Screenshot 2025-05-17 222341](https://github.com/user-attachments/assets/4632600a-f769-4db9-b584-91e2542bffc1)
-  ![Screenshot 2025-05-17 222436](https://github.com/user-attachments/assets/df9acac8-7f9f-4796-a786-1e6e1ad4d35e)
+  ![Image](https://github.com/user-attachments/assets/95ec7e88-9772-43ef-ab78-23f2202f8624)
 
-- Soal 4
-  ![image](https://github.com/user-attachments/assets/b601a628-8a89-45fa-aa8f-aec5adb95634)
+  ![Image](https://github.com/user-attachments/assets/9828273d-b2f0-4980-bdaa-293ab02c24c4)
+
+  ![Image](https://github.com/user-attachments/assets/35279e42-983d-45ab-8312-f6e6ca08a493)
 
 ---
