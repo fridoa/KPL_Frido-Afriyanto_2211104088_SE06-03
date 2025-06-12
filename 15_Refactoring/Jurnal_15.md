@@ -66,9 +66,7 @@ TELKOM UNIVERSITY PURWOKERTO
       throw new Error("Username hanya boleh berisi huruf alfabet ASCII.");
     }
     if (!passwordRule.test(password)) {
-      throw new Error(
-        "Password harus 8-20 karakter, mengandung angka dan karakter spesial."
-      );
+      throw new Error("Password harus 8-20 karakter, mengandung angka dan karakter spesial.");
     }
     if (password.toLowerCase().includes(username.toLowerCase())) {
       throw new Error("Password tidak boleh mengandung bagian dari username.");
@@ -97,9 +95,7 @@ TELKOM UNIVERSITY PURWOKERTO
   function loginUser(username, password) {
     const users = loadUsers();
     const hashed = hashPassword(password);
-    const user = users.find(
-      (u) => u.username === username && u.password === hashed
-    );
+    const user = users.find((u) => u.username === username && u.password === hashed);
     if (user) {
       console.log("Login berhasil.");
     } else {
@@ -178,12 +174,8 @@ TELKOM UNIVERSITY PURWOKERTO
   ```json
   [
     {
-      "username": "irpanzy",
-      "password": "81f7a308f52fb02f32f2a3ee370bef9bc2811a3177ec10e4e1777c155041d02c"
-    },
-    {
-      "username": "Hasna",
-      "password": "9489242a41062a4c26c222b794f9b144377ece69ed0929bec2c8c29d6fd1a73d"
+      "username": "fridoa",
+      "password": "a72c0b21a7199ce40e3c1ee08aa9dfcec16d00c0546e5297af88f0114848f956"
     }
   ]
   ```
